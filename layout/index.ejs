@@ -1,5 +1,8 @@
-<div class="page-header logo">
-  <h1><% if (config.subtitle){ %><%= config.subtitle%><% } else { %><%= config.title%><% }%><span class="blink-fast">∎</span></h1>
+<div class="page-header">
+  <% if (config.logo !== false) { %>
+  <div class="header-logo"></div>
+  <% } %>
+  <p><% if (config.subtitle){ %><%= config.subtitle%><% } else { %><%= config.title%><% }%></p>
 </div>
 
 <%- partial('_partial/index', {index: true}) %>
