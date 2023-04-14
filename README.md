@@ -69,7 +69,7 @@ Note that only About page can be created in that way.
 
 ## Enable
 
-Modify `theme` setting in your `_config.yml` to `freemind.386`.
+Modify `theme` setting in your `_config.yml` to `freemind386-kai`.
 
 ## Update
 
@@ -154,7 +154,7 @@ disqus_shortname:
 
 ## Front-Matter
 
-There are some new front-matter settings in Freemind.386 that you can use to decorate your articles.
+There are some new front-matter settings in Freemind386-kai that you can use to decorate your articles.
 
 - **description** - a short description about the articles that will be display at the top of the post
 - **feature** - sets a feature image that will be show at the index page
